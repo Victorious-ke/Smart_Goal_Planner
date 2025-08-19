@@ -1,6 +1,6 @@
 ## Smart Goal Planner
 
-A React-based financial goal management dashboard where users can create savings goals, make deposits, track progress, and view activity history. Data is persisted locally using json-server for full CRUD functionality.
+A React-based financial goal management dashboard where users can create savings goals, make deposits, track progress, and view activity history.
 
 ## Features
 
@@ -8,14 +8,12 @@ A React-based financial goal management dashboard where users can create savings
 2. Track Progress: View each goal’s saved amount and target
 3. Make Deposits: Add money toward any goal, automatically updating progress.
 4. Activity Log: See a history of deposits made for all goals
+5. Persistent Storage: Uses db.json to store goals and update in real-time.
 
-Persistent Storage: Uses json-server (db.json) to store goals and update them in real-time.
-
-Tech Stack
+## Technologies used
 React (Vite)
 CSS (custom styling)
 json-server (local REST API)
-
 
 
 ## Getting Started

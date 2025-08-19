@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Deposit.css";
 
 function Deposit({ goalId, onDeposit }) {
   const [amount, setAmount] = useState("");
@@ -19,7 +20,7 @@ function Deposit({ goalId, onDeposit }) {
         placeholder="Deposit Amount"
         required
       />
-      <button type="submit">Deposit</button>
+      <button type="submit" id="submit-btn">Deposit</button>
     </form>
   );
 }
