@@ -4,8 +4,8 @@
 
 .goals-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
 }
 
 .goal-card {
@@ -13,23 +13,19 @@
   border-radius: 10px;
   padding: 15px;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
 
-.goal-card:hover {
-  transform: translateY(-3px);
+  
 }
 
 .goal-card h3 {
   margin-bottom: 10px;
-  color: #2c3e50;
+  color: #004d9b;
 }
 
 .goal-card p {
   margin: 5px 0;
-  font-size: 14px;
-  color: #555;
+  font-size: 10px;
+  color: #650101;
 }
 
 .activity-log {
@@ -39,9 +35,9 @@
 }
 
 .activity-log li {
-  background: #f4f6f9;
+  background: #637b9e;
   padding: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 10px;
 }

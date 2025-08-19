@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./AddGoal.css";
 
 function AddGoal({ onAddGoal }) {
   const [form, setForm] = useState({
