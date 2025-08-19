@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import DashBoard from "./components/DashBoard";
 import AddGoal from "./components/AddGoal";
-import BrandIcon from "./assets/BrandIcon.png";
+import BrandIcon from "./assets/Brand-icon.png";
 import Favicon from "./assets/Favicon.png";
 import "./App.css";
 
@@ -9,7 +9,7 @@ function App() {
   const [goals, setGoals] = useState([]);
   const [activity, setActivity] = useState([]);
 
-  //Fetch goals from json-server
+  //Fetch goals 
   useEffect(() => {
     fetch("http://localhost:3000/goals")
       .then((res) => res.json())

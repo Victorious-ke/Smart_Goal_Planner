@@ -1,5 +1,6 @@
 import Deposit from "./Deposit";
 
+
 function DashBoard({ goals, onDeposit, activity }) {
   return (
     <div className="dashboard">

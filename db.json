@@ -94,9 +94,18 @@
       "id": "1755619244681",
       "name": "Victorious Ngaruiya",
       "targetAmount": 70000,
-      "savedAmount": 0,
+      "savedAmount": 567,
       "category": "home",
       "deadline": "2025-08-13",
+      "createdAt": "2025-08-19"
+    },
+    {
+      "id": "1755623309411",
+      "name": "housee",
+      "targetAmount": 60999,
+      "savedAmount": 0,
+      "category": "",
+      "deadline": "",
       "createdAt": "2025-08-19"
     }
   ]
