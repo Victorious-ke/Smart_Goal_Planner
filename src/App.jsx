@@ -1,20 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/Favicon.png'
-import viteLogo from '/vite.svg'
+import React from 'react'
+import favicon from './assets/Favicon.png'
+import brandicon from './assets/BrandIcon.png'
+import DashBoard from './components/DashBoard'
+import AddGoal from './components/AddGoal'
+import Deposit from './components/Deposit'
+import Overview from './components/Overview'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  return(
+    <div>
+      <H1>Smart Goal Planner</H1>
 
-  return (
-    <>
-      <div>
-        
-      </div>
-      
-    
-    </>
-  )
+      <DashBoard/>
+      <AddGoal/>
+      <Deposit/>
+      <Overview/>
+    </div>
+  );
+
 }
 
 export default App
