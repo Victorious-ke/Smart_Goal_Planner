@@ -1,0 +1,32 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.dashboard-actions button {
+  padding: auto;
+  color: white;
+  background-color: rgb(210, 27, 179);
+  margin-left: 20px ;
+
+}
+
+.dashboard-summary {
+  padding: auto;
+
+}
+
+#goal-list {
+ padding: auto;
+}
+
+

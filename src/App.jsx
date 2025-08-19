@@ -11,7 +11,7 @@ function App() {
   // brand icon and styling -inline 
   return(
     <div>
-      <h1> <img src="{BrandIcon}" alt="brandicon" style={{width: "30px", height: "30px", marginRight: "10px"}}/>
+      <h1> <img src="{BrandIcon}" alt="" style={{width: "30px", height: "30px", marginRight: "10px"}}/>
         Smart Goal Planner</h1>
 
       <DashBoard/>
