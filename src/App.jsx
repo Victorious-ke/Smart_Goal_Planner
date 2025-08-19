@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import React from 'react'
 import Favicon from './assets/Favicon.png'
 import BrandIcon from './assets/BrandIcon.png'
@@ -8,11 +9,25 @@ import Overview from './components/Overview'
 import './App.css'
 
 function App() {
+  const [goals, setGoals] = useState([]);
+  const handleAddGoal = (goal) => {
+    setGoals ([...goals, goal]);
+  };
   // brand icon and styling -inline 
   return(
     <div>
       <h1> <img src="{BrandIcon}" alt="" style={{width: "30px", height: "30px", marginRight: "10px"}}/>
         Smart Goal Planner</h1>
+        {/* <AddGoal onAddGoal={handleAddGoal} />
+         */}
+        {/* <h2>Your Goals:</h2> */}
+        <ul>
+          {goals.map((g) => (
+          <li key={g.id}>
+            {g.title} - ${g.progress} / ${g.target}
+          </li>
+          ))}
+        </ul>
 
       <DashBoard/>
       <AddGoal/>
