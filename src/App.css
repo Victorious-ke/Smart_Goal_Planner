@@ -2,15 +2,9 @@
   font-family: Arial, sans-serif;
   padding: 20px;
   max-width: 900px;
-  margin: auto;
-  background-color: bisque;
+  background-color: rgb(194, 178, 158);
 }
 
-.brand-icon {
-  width: 40px;
-  margin-right: 8px;
-  vertical-align: middle;
-}
 
 .add-goal-form,
 .deposit-form {

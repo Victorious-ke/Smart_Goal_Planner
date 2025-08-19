@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import DashBoard from "./components/DashBoard";
 import AddGoal from "./components/AddGoal";
-import BrandIcon from "./assets/Brand-icon.png";
 import Favicon from "./assets/Favicon.png";
 import "./App.css";
 
@@ -57,7 +56,6 @@ function App() {
   return (
     <div className="app">
       <h1>
-        <img src="/favicon.ico" alt="logo" className="brand-icon" />
         Smart Goal Planner
       </h1>
       <AddGoal onAddGoal={handleAddGoal} />
