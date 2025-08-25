@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Deposit.css";
+import "./styles/Deposit.css";
 
 function Deposit({ goalId, onDeposit }) {
   const [amount, setAmount] = useState("");

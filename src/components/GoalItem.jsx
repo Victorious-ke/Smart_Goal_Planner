@@ -4,15 +4,15 @@ import Deposit from "./components/Deposit";
 function GoalItem({ goal, onDeposit }) {
   return (
     <div className="goal-item">
-      <h3>{goal.title}</h3>
+      <h3>{goal.name}</h3>
       <p>
-        Progress: ${goal.progress} / ${goal.target}
+        Progress: ${goal.savedAmount} / ${goal.targetAmount}
       </p>
 
-      <progress value={goal.progress} max={goal.target}></progress>
+      <progress value={goal.savedAmount} max={goal.targetAmount}></progress>
 
       {/* Deposit form for this goal */}
-      <Deposit goal={goal} onDeposit={onDeposit} />
+      <Deposit goalId={goal.id} onDeposit={onDeposit} />
     </div>
   );
 }

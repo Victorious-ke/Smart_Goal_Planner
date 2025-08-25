@@ -1,5 +1,5 @@
 import Deposit from "./Deposit";
-import "./DashBoard.css";
+import "./styles/DashBoard.css";
 
 
 function DashBoard({ goals, onDeposit, activity }) {
